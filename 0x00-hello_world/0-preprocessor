@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E <the file name> -o <the output file>
