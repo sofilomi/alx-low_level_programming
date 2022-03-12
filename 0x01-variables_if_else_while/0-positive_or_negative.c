@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
 /**
- * main program using Betty style
+ * main
+ *
+ * Description: 
+ *
+ * Return
  */
+
 int main(void)
 {
 	int n;
