@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -entry comment 
+ * main -entry comment
  *
  * Return: always (0)
  *
@@ -9,6 +9,7 @@ int main(void)
 {
 	char sm = 'a';
 	char CA = 'A';
+	
 	for (; sm <= 'z' ; sm++)
 	{
 		putchar(sm);
