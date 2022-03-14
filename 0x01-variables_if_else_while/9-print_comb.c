@@ -11,6 +11,9 @@ int main(void)
 	while (a <= 9)
 	{
 		putchar(a + '0');
+
+		if (a == 9)
+		break;
 		putchar(',');
 		putchar(' ');
 		a++;
