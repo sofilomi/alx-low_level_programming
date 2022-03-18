@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check if the input c is digit
+ * _isdigit - check if the input c is digit
  *
  * @c: input
  *
