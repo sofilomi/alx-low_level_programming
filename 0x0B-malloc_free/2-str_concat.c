@@ -38,4 +38,12 @@ char *str_concat(char *s1, char *s2)
 	/*add the second string to array s*/
 	for (j = 0; s2[j] != '\0'; j++)
 	{
+		s[i] = s2[j];
+		i++;
+	}
 
+	/*null terminate our new string*/
+	s[i] = '\0';
+
+	return (s);
+}
